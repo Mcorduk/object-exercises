@@ -1,3 +1,2 @@
-Here’s the code that creates a pair of objects, then modifies them.
-
-Which values are shown in the process?
+    Use __proto__ to assign prototypes in a way that any property lookup will follow the path: pockets → bed → table → head. For instance, pockets.pen should be 3 (found in table), and bed.glasses should be 1 (found in head).
+    Answer the question: is it faster to get glasses as pockets.glasses or head.glasses? Benchmark if needed.
